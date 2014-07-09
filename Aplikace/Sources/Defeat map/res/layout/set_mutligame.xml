@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dip"
+        android:textColor="#FFFFFF"
+        android:text="@string/sg_track" />
+
+    <Spinner
+        android:id="@+id/setmgm_trackSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/sg_prompt" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dip"
+        android:textColor="#FFFFFF"
+        android:text="@string/sg_gmType" />
+
+    <Spinner
+        android:id="@+id/setmgm_gmTpSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/sg_prompt" />
+
+    <CheckBox
+        android:id="@+id/setmgm_EnableQue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dip"
+        android:textColor="#FFFFFF"
+        android:text="@string/useQuestion" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dip"
+        android:textColor="#FFFFFF"
+        android:text="@string/sg_gmId" />
+
+    <EditText
+        android:id="@+id/setmgm_roomName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dip"
+        android:textColor="#FFFFFF"
+        android:text="@string/sg_playername" />
+
+    <EditText
+        android:id="@+id/setmgm_playerName_Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/setmgm_startBnt"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_normal"
+        android:text="@string/sg_ConnectBtn" />
+
+    </LinearLayout>
+    
+
+</ScrollView>

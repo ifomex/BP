@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pb.ibp.DefeatMap"
+    android:versionCode="1"
+    android:versionName="1.5" >
+
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> 
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+<application android:icon="@drawable/ico" 
+    android:label="@string/app_name"
+    android:theme="@android:style/Theme.NoTitleBar" >
+        <activity android:name=".Main_Act" 
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="TraList_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name="TraEdit_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name="GameSett_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name="Preferences" android:screenOrientation="portrait"></activity>
+        <activity android:name="About_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name="PointEdit_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Game_Act" android:screenOrientation="portrait"></activity>
+        <service android:name="pb.ibp.DefeatMap.GPSService" android:enabled="true"></service>
+        <activity android:name="MultiGameSett_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name=".stat_act.Tabhost_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name=".stat_act.ForTrack_Act" android:screenOrientation="portrait"></activity>
+        <activity android:name="pb.ibp.DefeatMap.stat_act.Summary_Act" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

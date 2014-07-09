@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edtra_name"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="17dip" />
+
+        <EditText
+            android:id="@+id/edtra_edittraname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/edtra_addbtn"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="0.50"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_bg_normal"
+            android:text="@string/ertra_addbtn" />
+<!-- 
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="ToggleButton" />
+            
+ -->
+        <Button
+            android:id="@+id/edtra_genbtn"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="0.50"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_bg_normal"
+            android:text="@string/edtra_genbtn" />
+    </LinearLayout>
+
+    <org.osmdroid.views.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/edtra_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.02"
+        android:layout_marginTop="2dip" />
+	<!-- 
+ 	<LinearLayout android:id="@+id/edtra_maplay"
+ 	    android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.02"></LinearLayout>
+ 	 -->
+    <Button
+        android:id="@+id/edtra_savebtn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/button_bg_normal"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="@string/edtra_savebtn" />
+
+</LinearLayout>

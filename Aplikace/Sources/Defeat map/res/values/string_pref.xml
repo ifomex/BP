@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_check_gps_startup">Check GPS at startup</string>
+    <string name="pref_check_gps_startup_summary_en">Check if GPS is disabled at startup, and offer to enable it</string>
+    <string name="pref_check_gps_startup_summary_dis">GPS is enabled automatically</string>
+    <string name="pref_about">About</string>
+    <string name="about">About</string>
+    <string name="pref_gps_interval">Set GPS renew interval [Seconds]</string>
+    <string name="pref_keep_screen">Keep Screen On</string>
+    <string name="pref_keep_screen_summary">while playing</string>
+    
+</resources>

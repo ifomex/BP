@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_playbtn">One player game</string>
+    <string name="main_editorbtn">Track manager</string>
+    <string name="main_mutliplaybtn">Multiplayer game</string>
+    
+    <!-- Track List screen -->
+    <string name="tralst_newbtn">Create New Track</string>    
+    <string name="tralst_cm_edit">Edit Track</string>
+	<string name="tralst_cm_del">Delete Track</string>
+	<string name="tralst_item_poicnt">Point count: </string>
+	
+	<!-- Edit Track screen -->
+    <string name="edtra_notrack">No Track Yet</string>    
+    <string name="ertra_addbtn">Add point</string>    
+    <string name="edtra_genbtn">Generate point</string>    
+    <string name="edtra_savebtn">Save</string>    
+    <string name="edtra_name">Track name</string>
+    <string name="edtra_addbtn_toast">Now choose point from map</string>
+    <string name="edtra_cm_edit">Edit Point</string>
+	<string name="edtra_cm_del">Delete Point</string>
+        
+    <!-- Point Edit screen -->
+    <string name="edptn_pName">Point Name</string>
+    <string name="edptn_lat">Lat.:</string>    
+    <string name="edptn_lon">Lon.:</string>    
+    <string name="edptn_ord">Order</string>
+    <string name="edptn_que">Question</string>
+    <string name="edptn_ans">Answer</string>
+    
+    <!-- Set Game screen -->
+    <string name="sg_gmType">Game Type</string>
+    <string name="sg_prompt">Choose</string>
+    <string name="sg_track">Track</string>
+    <string name="sg_gmTime">Finish time</string>
+    <string-array name="gameTypeArr">
+        <item>Classic</item>
+        <item>In Time</item>
+        <item>By Order</item>
+        <item>Blind</item>
+    </string-array>
+    <string name="sg_gmId">Game Id</string>
+    <string name="sg_StartBtn">Start Game</string>
+    <string name="sg_ConnectBtn">Connect</string>
+    <string name="sg_NoStartBtn">Game starts automatically</string>
+    <string name="useQuestion">Enable Questions</string>
+
+    <string name="sg_playername">Player name</string>
+    
+    <string name="plname_warn">You must fill your player name</string>
+    <string name="roname_warn">You must fill game id</string>
+    
+    <!-- Game screen -->
+    <string name="gm_time">Time:</string>
+    <string name="gm_pause">Pause</string>
+    <string name="gm_play">Play</string> 
+    <string name="gm_toast_ursname">Player: </string>
+    <string name="gm_toast_ursord"> finish #</string>
+	
+	<!-- Menu -->	
+	<string name="menu_sett">Setting</string>
+	<string name="menu_stat">Statistics</string>
+	<string name="menu_myloc">My Location</string>
+
+	<!-- Dialogs -->
+	<string name="gpsdialog_disabled">GPS disabled</string>
+	<string name="gpsdialog_disabled_hint">GPS is disabled. Do you want to enable it?</string>
+	
+	<string name="quedialog_title">Answer the Question</string>
+	
+	<string name="windialog_title">You finish the game</string>
+	<string name="windialog_statbtn">Show Statistics</string>
+	<string name="windialog_exit">Go to main</string>
+	<string name="windialog_msgord">Your order: #</string>
+	<string name="windialog_msgtime">Finish time: </string>
+	<string name="windialog_msgpois">Points passed: </string>
+	<string name="windialog_msgtrlen">Distance: </string>
+	<string name="windialog_msgtrlen2"> meters</string>
+	
+	<string name="waitDialog_title">Waiting for GPS position</string>
+	<string name="waitDialog_message">Game starts after waiting</string>
+	
+	<string name="multiplDialog_title">Choose your Multiplayer role</string>
+	<string name="multiplDialog_message"></string>
+	<string name="multiplDialog_serverbtn">Create game</string>
+	<string name="multiplDialog_clientbtn">Join game</string>
+	
+	<string name="waitGPS">Waiting for GPS position</string>
+	
+	<string name="timedialog_title">Set Time</string>
+	<string name="timedialog_message">Set end time for \"In Time\" game type \n[minutes]</string>
+	<string name="positive_btn_text">OK</string>
+	
+	<string name="multigameDialog_title">Waiting for opponents</string>
+	<string name="multigameDialog_playlist">List of players</string>
+	<string name="multigameDialog_startbtn">Start game</string>
+	
+	<string name="usrdialog_msgpois">Points passed: </string>
+	<string name="usrdialog_msgord">Order: </string>
+	
+	<!-- Statistics Screen -->
+	<string name="tab_summary">Summary</string>
+	<string name="tab_forTrack">For Track</string>
+	
+	<!-- Statistics -->
+	<string name="sums_playcnt">Play Count: </string>
+	<string name="sums_sumtime">Total Time: </string>
+	<string name="sums_besttime">Best Time: </string>
+	<string name="sums_avgtime">Average Time: </string>
+	<string name="sums_sumlen">Total Lenght: </string>
+	<string name="sums_bestlen">Best Lenght: </string>
+	<string name="sums_avglen">Average Lenght: </string>
+	
+	<!-- DO NOT TRANSLATE -->
+	<string name="app_name">Defeat Map</string>
+	<string name="gps_service_intent">GPSServiceIntent</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/map_bgd"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/main_playbtn"
+        android:layout_width="150dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_normal"
+        android:text="@string/main_playbtn" />
+
+    <Button
+        android:id="@+id/main_mutliplaybtn"
+        android:layout_width="150dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_selector"
+        android:text="@string/main_mutliplaybtn" />
+
+    <Button
+        android:id="@+id/main_editorbtn"
+        android:layout_width="150dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_normal"
+        android:text="@string/main_editorbtn" />
+
+</LinearLayout>

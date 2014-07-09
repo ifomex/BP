@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_check_gps_startup">Kontrola GPS při zapnutí</string>
+    <string name="pref_check_gps_startup_summary_en">Zkontroluje zapnutí GPS a nabídne jeho povolení</string>
+    <string name="pref_check_gps_startup_summary_dis">GPS je zapnuto automaticky</string>
+    <string name="pref_about">O aplikaci</string>
+    <string name="about">About</string>
+    <string name="pref_gps_interval">Nastavte interval obnovy GPS [Sekundy]</string>
+    <string name="pref_keep_screen">Nechat obrazovku zapnutou</string>
+    <string name="pref_keep_screen_summary">v průbehu hry</string>
+    
+</resources>

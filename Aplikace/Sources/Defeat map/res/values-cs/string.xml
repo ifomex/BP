@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_playbtn">Jeden hráč</string>
+    <string name="main_editorbtn">Správa tratí</string>
+    <string name="main_mutliplaybtn">Více hráčů</string>
+    
+    <!-- Track List screen -->
+    <string name="tralst_newbtn">Nová trať</string>    
+    <string name="tralst_cm_edit">Editovat trať</string>
+	<string name="tralst_cm_del">Smazat trať</string>
+	<string name="tralst_item_poicnt">Počet bodů: </string>
+	
+	<!-- Edit Track screen -->
+    <string name="edtra_notrack">Žádná trať</string>    
+    <string name="ertra_addbtn">Přidat bod</string>    
+    <string name="edtra_genbtn">Generovat bod</string>    
+    <string name="edtra_savebtn">Uložit</string>    
+    <string name="edtra_name">Název trati</string>
+    <string name="edtra_addbtn_toast">Vyberte bod na mapě</string>
+    <string name="edtra_cm_edit">Editovat bod</string>
+	<string name="edtra_cm_del">Smazat bod</string>
+        
+    <!-- Point Edit screen -->
+    <string name="edptn_pName">Název bodu</string>
+    <string name="edptn_lat">Lat.:</string>    
+    <string name="edptn_lon">Lon.:</string>    
+    <string name="edptn_ord">Pořadí</string>
+    <string name="edptn_que">Otázka</string>
+    <string name="edptn_ans">Odpověď</string>
+    
+    <!-- Set Game screen -->
+    <string name="sg_gmType">Typ hry</string>
+    <string name="sg_prompt">Vyber</string>
+    <string name="sg_track">Trať</string>
+    <string name="sg_gmTime">Čas do konce</string>
+    <string-array name="gameTypeArr">
+        <item>Klasický</item>
+        <item>Na čas</item>
+        <item>Podle pořadí</item>
+        <item>Na slepo</item>
+    </string-array>
+    <string name="sg_gmId">ID hry</string>
+    <string name="sg_StartBtn">Spustit hru</string>
+    <string name="sg_ConnectBtn">Připojit</string>
+    <string name="sg_NoStartBtn">Hra se spustí automaticky</string>
+    <string name="useQuestion">Povolit otázky</string>
+
+    <string name="sg_playername">Jméno hráče</string>
+    
+    <string name="plname_warn">Musíte vyplnit své jméno hráče</string>
+    <string name="roname_warn">Musíte vyplnit ID hry</string>
+    
+    <!-- Game screen -->
+    <string name="gm_time">Čas:</string>
+    <string name="gm_pause">Pozastavit</string>
+    <string name="gm_play">Hrát</string> 
+    <string name="gm_toast_ursname">Hráč: </string>
+    <string name="gm_toast_ursord"> dokončil #</string>
+	
+	<!-- Menu -->	
+	<string name="menu_sett">Nastavení</string>
+	<string name="menu_stat">Statistiky</string>
+	<string name="menu_myloc">Moje pozice</string>
+
+	<!-- Dialogs -->
+	<string name="gpsdialog_disabled">GPS zakázáno</string>
+	<string name="gpsdialog_disabled_hint">GPS je zakázáno. Přejete si jej povolit?</string>
+	
+	<string name="quedialog_title">Odpovězte na otázku</string>
+	
+	<string name="windialog_title">Dokončili jste hru</string>
+	<string name="windialog_statbtn">Zobrazení statistiky</string>
+	<string name="windialog_exit">Odejít</string>
+	<string name="windialog_msgord">Vaše pořadí: #</string>
+	<string name="windialog_msgtime">Dosažený čas: </string>
+	<string name="windialog_msgpois">Projité body: </string>
+	<string name="windialog_msgtrlen">Vzdálenost: </string>
+	<string name="windialog_msgtrlen2"> metrů</string>
+	
+	<string name="waitDialog_title">Čekání na pozici GPS</string>
+	<string name="waitDialog_message">Hra se spustí zaokamžik</string>
+	
+	<string name="multiplDialog_title">Vyberte svou roli ve hře pro více hráčů</string>
+	<string name="multiplDialog_message">Pokud jste vytvořili hru, vyberte Server. Jinak si vybrerte klienta.</string>
+	<string name="multiplDialog_serverbtn">Vytvořit hru</string>
+	<string name="multiplDialog_clientbtn">Připojit ke hře</string>
+	
+	<string name="waitGPS">Čekání na pozici GPS</string>
+	
+	<string name="timedialog_title">Nastavení času</string>
+	<string name="timedialog_message">Nastavení koncového času pro herní typ \"Na čas\"\n[minut]</string>
+	<string name="positive_btn_text">OK</string>
+	
+	<string name="multigameDialog_title">Čekání na protihráče</string>
+	<string name="multigameDialog_playlist">Seznam hráčů</string>
+	<string name="multigameDialog_startbtn">Spustit hru</string>
+	
+	<string name="usrdialog_msgpois">Projité body: </string>
+	<string name="usrdialog_msgord">Pořadí: </string>
+	
+	<!-- Statistics Screen -->
+	<string name="tab_summary">Celkové</string>
+	<string name="tab_forTrack">Pro trať</string>
+	
+	<!-- Statistics -->
+	<string name="sums_playcnt">Počet odehrání: </string>
+	<string name="sums_sumtime">Celkový čas: </string>
+	<string name="sums_besttime">Nejlepší čas: </string>
+	<string name="sums_avgtime">Průměrný čas: </string>
+	<string name="sums_sumlen">Celková vzdálenost: </string>
+	<string name="sums_bestlen">Nejkratší vzdálenost: </string>
+	<string name="sums_avglen">Průměrná vzdálenost: </string>
+	
+	<!-- DO NOT TRANSLATE -->
+    <string name="app_name">Defeat Map</string>
+	<string name="gps_service_intent">GPSServiceIntent</string>
+</resources>
